@@ -6,7 +6,7 @@ import { SlSocialVkontakte } from "react-icons/sl";
 
 
 import logo from "./../assets/images/logo.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -25,12 +25,12 @@ function Footer() {
           </h6>
           <div className="flex md:gap-5 sm:gap-20 gap-10 md:justify-between justify-center lg:text-md md:text-sm sm:text-xl text-md">
             <div className="flex flex-col gap-2 ">
-              <Link to='/' className="hover:text-red transition cursor-pointer">
+              <a to='/' className="hover:text-red transition cursor-pointer">
                 О проекте
-              </Link>
-              <Link to='/auction' className="hover:text-red transition cursor-pointer">
+              </a>
+              <a to='/auction' className="hover:text-red transition cursor-pointer">
                 Аукцион
-              </Link>
+              </a>
             </div>
             <div className="flex flex-col gap-2">
               <a className="hover:text-red transition cursor-pointer">

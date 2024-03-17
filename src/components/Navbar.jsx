@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Navbar({ isOpenModal, toggleModal }) {
   // Состояние для отслеживания, прокрутил ли пользователь страницу
@@ -34,14 +34,14 @@ function Navbar({ isOpenModal, toggleModal }) {
         <img src={logo} alt="" className="w-fit h-auto" />
         <nav className="flex w-1/2">
           <ul className="flex w-full gap-x-10 text-md items-center justify-center">
-            <Link to='/' className="cursor-pointer hover:text-red transition whitespace-nowrap">
+            <a to='/' className="cursor-pointer hover:text-red transition whitespace-nowrap">
               О проекте
-            </Link>
-            <Link to='/auction'>
+            </a>
+            <a to='/auction'>
               <li className="cursor-pointer hover:text-red transition">
                 Аукцион
               </li>
-            </Link>
+            </a>
             <li className="cursor-pointer hover:text-red transition">
               Избранное
             </li>
