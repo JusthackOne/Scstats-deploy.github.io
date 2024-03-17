@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Scstats-deploy.github.io/static/css/main.576f940d.css",
-    "main.js": "/Scstats-deploy.github.io/static/js/main.a8bb7e10.js",
+    "main.js": "/Scstats-deploy.github.io/static/js/main.48bd7b41.js",
     "static/media/whyWe.png": "/Scstats-deploy.github.io/static/media/whyWe.b51e74e0ca89ec5e261c.png",
     "static/media/mainInfo.png": "/Scstats-deploy.github.io/static/media/mainInfo.6a688f0666a3b5cb59b8.png",
     "static/media/itemPhoto.png": "/Scstats-deploy.github.io/static/media/itemPhoto.3df2083ecc5e1abeee6f.png",
     "index.html": "/Scstats-deploy.github.io/index.html",
     "main.576f940d.css.map": "/Scstats-deploy.github.io/static/css/main.576f940d.css.map",
-    "main.a8bb7e10.js.map": "/Scstats-deploy.github.io/static/js/main.a8bb7e10.js.map"
+    "main.48bd7b41.js.map": "/Scstats-deploy.github.io/static/js/main.48bd7b41.js.map"
   },
   "entrypoints": [
     "static/css/main.576f940d.css",
-    "static/js/main.a8bb7e10.js"
+    "static/js/main.48bd7b41.js"
   ]
 }
